@@ -5,7 +5,7 @@ This repository demonstrates how to use **Azure Databricks to build data pipelin
 Below is an overview of the repository:
    
 1. **Main script for querying on Dataset**
-   <br>a. _Construct Automatically Updated Sales Dashboard.ipynb_: load online sales data in the cloud, turn data into a SQL table and **query product sales records**.
+   <br>a. _SalesDataPipeline.ipynb_: load online sales data in the cloud, turn data into a SQL table and **query product sales records**.
    
    **Resulted table** (top 3 rows, 83 rows in total in the latest update)
   
