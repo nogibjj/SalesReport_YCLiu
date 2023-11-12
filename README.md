@@ -20,7 +20,7 @@ Below is an overview of the repository:
   <img width="1035" alt="ScheduledDatapipeline" src="https://github.com/nogibjj/DatabricksPipeline_YCliu/assets/46064664/dd3670d8-74b8-4394-86f0-8e8972a21531">
 
 3. **Github actions setup for continuous integration**
-  <br>b. _.github/workflows/main.yml_: Quality control actions are triggered when pushed/ pulled to main branch. After setting up the environment, actions of **installing packages**, **linting**, **testing**, **formatting** would be executed in order (specified in Makefile). 
+  <br>b. _.github/workflows/main.yml_: Quality control actions are triggered when pushed/ pulled to main branch. After setting up the environment, actions of **installing packages**, **testing**,would be executed in order (specified in Makefile). 
 
 4. **Other files for development environment settings**
   <br>c. _.gitignore_: specify file names to ignore.
