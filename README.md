@@ -1,11 +1,11 @@
 ## Use Azure Databricks To Build Data Pipeline 
 
-This repository demonstrates how to use **Azure Databricks to build data pipeline on the cloud**. Using a Databricks notebook, **online retail data saved on the cloud was extracted**, turned into tables, and **the product sales records of interest were queried and saved** as a _PySpark_ dataframe. The pipeline is set to be triggered everyday at _10am_.
+This repository demonstrates how to use **Azure Databricks to build data pipeline on the cloud**. Using a Databricks notebook, **online retail data saved on the cloud was extracted**, turned into tables, and **the product sales records of interest were queried and saved** as a _PySpark_ dataframe. The pipeline is set to be triggered every day at _10am_.
 
 Below is an overview of the repository:
    
 1. **Main script for querying on Dataset**
-   <br>a. _SalesDataPipeline.ipynb_: load online sales data in the cloud, turn data into a SQL table and **query product sales records**. The code and and output can be seen in the databrick(ipython) notebook.
+   <br>a. _SalesDataPipeline.ipynb_: load online sales data in the cloud, turn data into a SQL table and **query product sales records**. The code and and output can be seen in the databricks (ipython) notebook.
    
    **Resulted table** (top 3 rows, 83 rows in total in the latest update)
   
@@ -23,5 +23,5 @@ Below is an overview of the repository:
    <br>b. _.gitignore_: specify file names to ignore.
 
 4. **Description of the project**
-   <br>c. _README.md_: THIS FILE, explaining the purpose and structure of the directory, with example output and screenshots of scheduled execition.
+   <br>c. _README.md_: THIS FILE, explaining the purpose and structure of the directory, with example output and screenshots of scheduled execution.
 
