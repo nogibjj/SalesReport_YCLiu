@@ -5,7 +5,7 @@ This repository demonstrates how to use **Azure Databricks to build data pipelin
 Below is an overview of the repository:
    
 1. **Main script for querying on Dataset**
-   <br>a. _SalesDataPipeline.ipynb_: load online sales data in the cloud, turn data into a SQL table and **query product sales records**.
+   <br>a. _SalesDataPipeline.ipynb_: load online sales data in the cloud, turn data into a SQL table and **query product sales records**. The code and and output can be seen in the ipython notebook.
    
    **Resulted table** (top 3 rows, 83 rows in total in the latest update)
   
@@ -19,13 +19,9 @@ Below is an overview of the repository:
    
   <img width="1035" alt="ScheduledDatapipeline" src="https://github.com/nogibjj/DatabricksPipeline_YCliu/assets/46064664/dd3670d8-74b8-4394-86f0-8e8972a21531">
 
-3. **Github actions setup for continuous integration**
-  <br>b. _.github/workflows/main.yml_: Quality control actions are triggered when pushed/ pulled to main branch. After setting up the environment, actions of **installing packages**, **testing**,would be executed in order (specified in Makefile). 
+3. **Other files for development environment settings**
+   <br>b. _.gitignore_: specify file names to ignore.
 
-4. **Other files for development environment settings**
-  <br>c. _.gitignore_: specify file names to ignore.
-  <br>d. _requirements.txt_: list of required packages for the project.
-
-6. **Description of the project**
-   <br>e. _README.md_: THIS FILE, explaining the purpose and structure of the directory, with example output and screenshots of scheduled execition.
+4. **Description of the project**
+   <br>c. _README.md_: THIS FILE, explaining the purpose and structure of the directory, with example output and screenshots of scheduled execition.
 
