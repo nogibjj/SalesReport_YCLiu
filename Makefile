@@ -9,10 +9,7 @@ format:
 	black *.py 
 
 lint:
-	ruff check *.py #mylib/*.py
-	
-#container-lint:
-	#docker run --rm -i hadolint/hadolint < Dockerfile
+	ruff check *.py 
 
 refactor: format lint
 
