@@ -3,7 +3,7 @@ install:
 		pip install -r requirements.txt
 
 test:
-	python -m pytest --nbval main.ipynb
+	python -m pytest --nbval SalesDataPipeline.ipynb
 
 format:	
 	black *.py 
