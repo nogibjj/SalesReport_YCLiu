@@ -1,19 +1,31 @@
-## Use Azure Databricks To Build Data Pipeline 
+## Sales Status Dashboard for Actionable Insights
 
-This repository demonstrates how to use **Azure Databricks to build data pipeline on the cloud**. Using a Databricks notebook, **online retail data saved on the cloud was extracted**, turned into tables, and **the product sales records of interest were queried and saved** as a _PySpark_ dataframe. The pipeline is set to be triggered every day at _10am_.
+This repository demonstrates how to use **Azure Notebook to automaticaly generate year to date sales report everyday**. Using a Databricks notebook, online retail data saved on the cloud was extracted, turned into table, filterd and aggregated to generate **a bar chart of top revenue generating products** that can be used for regular sales status monitoring. The pipeline is set to be triggered every day at _8am_.
 
 Below is an overview of the repository:
    
 1. **Main script for querying on Dataset**
-   <br>a. _SalesDataPipeline.ipynb_: load online sales data in the cloud, turn data into a SQL table and **query product sales records**. The code and and output can be seen in the databricks (ipython) notebook.
-   
-   **Resulted table** (top 3 rows, 83 rows in total in the latest update)
+   <br>a. _SalesReport.ipynb_: load online sales data in the cloud, turn data into a SQL table and **query product sales records**. The code and and output can be seen in the databricks (ipython) notebook.
+
+   **Resulted Dashboard**
+
+   <img width="589" alt="Dashboard" src="https://github.com/nogibjj/SalesReport_YCLiu/assets/46064664/a39275f7-84d3-465f-9296-f194b6d5fb58">
+
+
   
-   | InvoiceNo | StockCode | Description | Quantity | InvoiceDate | UnitPrice | CustomerID | Country |
-   |---|---|---|---|---|---|---|---|
-   | 536412 | 22570 | FELTCRAFT CUSION RABBIT | 3 | 12/1/10  11:49 | 3.75 | 17920.00 | null |
-   | 536528 | 22570 | FELTCRAFT CUSION RABBIT | 1 | 12/1/10  13:17 | 3.75 | 15525.00 | null |
-   | 536557 | 22570 | FELTCRAFT CUSION RABBIT | 1 | 12/1/10  14:41 | 3.75 | 17841.00 | null |
+   | StockCode | Description | Revenue |
+   |---|---|---|
+   | 85123A | WHITE HANGING HEART T-LIGHT HOLDER | 26627.44 |
+   | DOT | DOTCOM POSTAGE | 19013.34 |
+   | 22423 | REGENCY CAKESTAND 3 TIER | 16446.10 |
+   | 21108 | FAIRY CAKE FLANNEL ASSORTED COLOUR | 13374.44 |
+   | 48185 | DOORMAT FAIRY CAKE | 10087.28 |
+   | 79321 | CHILLI LIGHTS | 10017.54 |
+   | 22470 | HEART OF WICKER LARGE | 9752.64 |
+   | 21175 | GIN + TONIC DIET METAL SIGN | 8775.28 |
+   | 22469 | HEART OF WICKER SMALL | 8228.14 |
+   | 21733 | RED HANGING HEART T-LIGHT HOLDER | 7706.10 |
+   
 
    **Scheduled execution** (The pipeline is scheduled to be executed at 10am everyday)
    
