@@ -9,10 +9,8 @@ Below is an overview of the repository:
 
    **Resulted Dashboard**
 
-   <img width="589" alt="Dashboard" src="https://github.com/nogibjj/SalesReport_YCLiu/assets/46064664/a39275f7-84d3-465f-9296-f194b6d5fb58">
+   <img width="586" alt="Dashboard" src="https://github.com/nogibjj/SalesReport_YCLiu/assets/46064664/f5ff9e42-189f-403e-9f12-1886faf535d7">
 
-
-  
    | StockCode | Description | Revenue |
    |---|---|---|
    | 85123A | WHITE HANGING HEART T-LIGHT HOLDER | 26627.44 |
