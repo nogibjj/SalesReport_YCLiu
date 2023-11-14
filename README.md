@@ -1,11 +1,14 @@
 ## Sales Status Dashboard for Actionable Insights
 
-This repository demonstrates how to use **Azure Notebook to automaticaly generate year to date sales report everyday**. Using a Databricks notebook, online retail data saved on the cloud was extracted, turned into table, filterd and aggregated to generate **a bar chart of top revenue generating products** that can be used for regular sales status monitoring. The pipeline is set to be triggered every day at _8am_.
+This repository demonstrates how to use **Azure Notebook to automaticaly generate year to date (YTD) sales report everyday**. Using a Databricks notebook, online retail data saved on the cloud was extracted, turned into table, filterd and aggregated to generate **a bar chart of top revenue generating products** that can be used for regular sales status monitoring. The pipeline is set to be triggered every day at _8am_.
 
 Below is an overview of the repository:
    
-1. **Main script for querying on Dataset**
-   <br>a. _SalesReport.ipynb_: load online sales data in the cloud, turn data into a SQL table and **query product sales records**. The code and and output can be seen in the databricks (ipython) notebook.
+1. **Main script generating sales dashboard**
+   <br>a. _SalesReport.ipynb_: The ipython notebook for generating sales dashboard, specifically, the following are executed:
+   1. **Load** online sales data in the cloud.
+   2. **Create PySpark SQL** table _sales_data_ and fill in _all_ rows from sales datasource.
+   3. **Filter data of the the year** to **reduce the amount of data** and turn the result into a pandas dataframe.
 
    **Resulted Dashboard**
 
