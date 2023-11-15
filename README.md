@@ -12,24 +12,25 @@ Below is an overview of the repository:
    4. **Aggregate revenue per product** and **sort products from the highest YTD revenue to the lowest**.
    5. **Generate a dashboard of top YTD revenue generating products**.
   
-## Hello World
+   ## Actionable Insights for Sales Management Team
+      As **top revenue generating products are all of** ***low unit price*** and ***large sales quantity***, **new initiaitve of sales campaign on such poducts should be launched**.
       
    **Resulted Dashboard**
 
    <img width="586" alt="Dashboard" src="https://github.com/nogibjj/SalesReport_YCLiu/assets/46064664/f5ff9e42-189f-403e-9f12-1886faf535d7">
 
-   | StockCode | Description | Revenue |
-   |---|---|---|
-   | 85123A | WHITE HANGING HEART T-LIGHT HOLDER | 26627.44 |
-   | DOT | DOTCOM POSTAGE | 19013.34 |
-   | 22423 | REGENCY CAKESTAND 3 TIER | 16446.10 |
-   | 21108 | FAIRY CAKE FLANNEL ASSORTED COLOUR | 13374.44 |
-   | 48185 | DOORMAT FAIRY CAKE | 10087.28 |
-   | 79321 | CHILLI LIGHTS | 10017.54 |
-   | 22470 | HEART OF WICKER LARGE | 9752.64 |
-   | 21175 | GIN + TONIC DIET METAL SIGN | 8775.28 |
-   | 22469 | HEART OF WICKER SMALL | 8228.14 |
-   | 21733 | RED HANGING HEART T-LIGHT HOLDER | 7706.10 |
+   | StockCode | Description | UnitPrice | Revenue |
+   |---|---|---|---|
+   | 85123A | WHITE HANGING HEART T-LIGHT HOLDER | 2.55 | 26627.44 |
+   | DOT | DOTCOM POSTAGE | 2.10 | 19013.34 |
+   | 22423 | REGENCY CAKESTAND 3 TIER | 10.95 | 16446.10 |
+   | 21108 | FAIRY CAKE FLANNEL ASSORTED COLOUR | 6.75 | 13374.44 |
+   | 48185 | DOORMAT FAIRY CAKE | 3.21 | 10087.28 |
+   | 79321 | CHILLI LIGHTS | 1.85 | 10017.54 |
+   | 22470 | HEART OF WICKER LARGE | 2.55 | 9752.64 |
+   | 21175 | GIN + TONIC DIET METAL SIGN | 3.24 | 8775.28 |
+   | 22469 | HEART OF WICKER SMALL | 3.24 | 8228.14 |
+   | 21733 | RED HANGING HEART T-LIGHT HOLDER | 2.55 | 7706.10 |
    
 
    **Scheduled execution** (The **dashboard is updated everyday at 3 am**)
