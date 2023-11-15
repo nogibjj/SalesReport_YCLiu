@@ -7,7 +7,7 @@ Below is an overview of the repository:
 1. **Main script generating sales dashboard**
    <br>a. _SalesReport.ipynb_: The ipython notebook for generating sales dashboard, specifically, the following are executed:
    1. **Load** online sales data in the cloud.
-   2. **Create PySpark SQL** table _sales_data_ and fill in _all_ rows from sales datasource.
+   2. **Create PySpark SQL table** _sales_data_ and fill in _all_ rows from sales data source, namely _InvoiceNo_, _StockCode_, _Description_, _Quantity_, _InvoiceDate_, _UnitPrice_, _CustomerID_. Also, add a column name _Revenue_, which is the product of _Quantity_ and _UnitPrice_.
    3. **Filter data of the the year** to **reduce the amount of data** and turn the result into a pandas dataframe.
 
    **Resulted Dashboard**
