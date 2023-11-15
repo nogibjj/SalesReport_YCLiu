@@ -10,7 +10,9 @@ Below is an overview of the repository:
    2. **Create PySpark SQL table** _sales_data_ and fill in _all_ rows from sales data source, namely _InvoiceNo_, _StockCode_, _Description_, _Quantity_, _InvoiceDate_, _UnitPrice_, _CustomerID_. Also, add a column name _Revenue_, which is the product of _Quantity_ and _UnitPrice_.
    3. **Filter data of the the year** to **reduce the amount of data** and turn the result into a pandas dataframe.
    4. **Aggregate revenue per product** and **sort products from the highest YTD revenue to the lowest**.
-   5. **Generate a dashboard of
+   5. **Generate a dashboard of top YTD revenue generating products**.
+  
+## Hello World
       
    **Resulted Dashboard**
 
