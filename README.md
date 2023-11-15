@@ -9,7 +9,9 @@ Below is an overview of the repository:
    1. **Load** online sales data in the cloud.
    2. **Create PySpark SQL table** _sales_data_ and fill in _all_ rows from sales data source, namely _InvoiceNo_, _StockCode_, _Description_, _Quantity_, _InvoiceDate_, _UnitPrice_, _CustomerID_. Also, add a column name _Revenue_, which is the product of _Quantity_ and _UnitPrice_.
    3. **Filter data of the the year** to **reduce the amount of data** and turn the result into a pandas dataframe.
-
+   4. **Aggregate revenue per product** and **sort products from the highest YTD revenue to the lowest**.
+   5. **Generate a dashboard of
+      
    **Resulted Dashboard**
 
    <img width="586" alt="Dashboard" src="https://github.com/nogibjj/SalesReport_YCLiu/assets/46064664/f5ff9e42-189f-403e-9f12-1886faf535d7">
@@ -28,9 +30,10 @@ Below is an overview of the repository:
    | 21733 | RED HANGING HEART T-LIGHT HOLDER | 7706.10 |
    
 
-   **Scheduled execution** (The pipeline is scheduled to be executed at 10am everyday)
+   **Scheduled execution** (The **dashboard is updated everyday at 3 am**)
    
-  <img width="1035" alt="ScheduledDatapipeline" src="https://github.com/nogibjj/DatabricksPipeline_YCliu/assets/46064664/dd3670d8-74b8-4394-86f0-8e8972a21531">
+<img width="811" alt="ScheduledUpdate" src="https://github.com/nogibjj/SalesReport_YCLiu/assets/46064664/e817a97c-b07e-4bea-950f-c49d0865ea97">
+
 
 3. **Other files for development environment settings**
    <br>b. _.gitignore_: specify file names to ignore.
