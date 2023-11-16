@@ -1,6 +1,8 @@
+[![Python Continuous Integration](https://github.com/nogibjj/SalesReport_YCLiu/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/SalesReport_YCLiu/actions/workflows/cicd.yml)
+
 ## Sales Status Dashboard for Actionable Insights
 
-This repository demonstrates how to use **Azure Notebook to automaticaly generate year to date (YTD) sales report everyday**. Using a Databricks notebook, online retail data saved on the cloud was extracted, turned into table, filterd and aggregated to generate **a bar chart of top revenue generating products** that can be used for regular sales status monitoring. The pipeline is set to be triggered every day at _3am_.
+This repository demonstrates how to use **Azure Notebook to automaticaly generate year to date (YTD) sales report everyday**. Using a Databricks notebook, online retail data saved on the cloud was extracted, turned into table, filterd and aggregated to generate **a bar chart of top revenue generating products** that can be used for regular sales status monitoring. The pipeline is set to be triggered every day at _3am_. 
 
 Below is an overview of the repository:
    
