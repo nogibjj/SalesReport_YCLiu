@@ -16,11 +16,11 @@ Below is an overview of the repository:
    <br>vi. **Validate result correctness**.
 
    ## Actionable Insights for Sales Management Team
-      The **sales comapaign for couples giving each other gifts** （e.g. hanging heart light holder, heart of wicker) worked well. However, white light holder seems to be more popular, we should **work on making sure our stock can meet customer's needs**.
+      The **sales comapaign for couples giving each other gifts**（e.g. hanging heart light holder, heart of wicker) worked well. However, white light holder seems to be more popular than the red ones, we should **work on making sure our stock can meet customers' needs**.
       
    **Resulted Dashboard**
    
-   <img width="592" alt="Dashboard" src="https://github.com/nogibjj/SalesReport_YCLiu/assets/46064664/d957c4be-c905-4f32-a9c8-f01784294f0c">
+   <img width="587" alt="Dashboard" src="https://github.com/nogibjj/SalesReport_YCLiu/assets/46064664/b15c0a34-9198-4c98-ac94-a9d32e9b160b">
 
    | StockCode | Description | Revenue |
    |---|---|---|
