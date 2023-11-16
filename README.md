@@ -8,12 +8,13 @@ Below is an overview of the repository:
    
 1. **Main script generating sales dashboard**
    <br>a. _SalesReport.ipynb_: The ipython notebook for generating sales dashboard, specifically, the following are executed:
-   i. **Load** online sales data in the cloud.
-   ii. **Create PySpark SQL table** _sales_data_ and fill in _all_ rows from sales data source, namely _InvoiceNo_, _StockCode_, _Description_, _Quantity_, _InvoiceDate_, _UnitPrice_, _CustomerID_. Also, add a column name _Revenue_, which is the product of _Quantity_ and _UnitPrice_.
-   iii. **Filter data of the the year** to **reduce the amount of data** and turn the result into a pandas dataframe.
-   iv. **Aggregate revenue per product** and **sort products from the highest YTD revenue to the lowest**.
-   v. **Generate a dashboard of top YTD revenue generating products**.
-  
+   <br>i. **Load** online sales data in the cloud.
+   <br>ii. **Create PySpark SQL table** _sales_data_ and fill in _all_ rows from sales data source, namely _InvoiceNo_, _StockCode_, _Description_, _Quantity_, _InvoiceDate_, _UnitPrice_, _CustomerID_. Also, add a column name _Revenue_, which is the product of _Quantity_ and _UnitPrice_.
+   <br>iii. **Filter data of the the year** to **reduce the amount of data** and turn the result into a pandas dataframe.
+   <br>iv. **Aggregate revenue per product** and **sort products from the highest YTD revenue to the lowest**.
+   <br>v. **Generate a dashboard of top YTD revenue generating products**.
+   <br>vi. **Validate result correctness**.
+
    ## Actionable Insights for Sales Management Team
       The **sales comapaign for couples giving each other gifts** （e.g. hanging heart light holder, heart of wicker) worked well. However, white light holder seems to be more popular, we should **work on making sure our stock can meet customer's needs**.
       
