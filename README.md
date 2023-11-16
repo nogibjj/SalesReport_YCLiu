@@ -13,23 +13,23 @@ Below is an overview of the repository:
    5. **Generate a dashboard of top YTD revenue generating products**.
   
    ## Actionable Insights for Sales Management Team
-      As **top revenue generating products are all of** ***low unit price*** and ***large sales quantity***, **new initiaitve of sales campaign on such poducts should be launched**.
+      The **sales comapaign for couples giving each other gifts** （e.g. hanging heart light holder, heart of wicker) worked well. However, white light holder seems to be more popular, we should **work on making sure our stock can meet customer's needs**.
       
    **Resulted Dashboard**
    <img width="592" alt="Dashboard" src="https://github.com/nogibjj/SalesReport_YCLiu/assets/46064664/d957c4be-c905-4f32-a9c8-f01784294f0c">
 
-   | StockCode | Description | UnitPrice | Revenue |
-   |---|---|---|---|
-   | 85123A | WHITE HANGING HEART T-LIGHT HOLDER | 2.55 | 26627.44 |
-   | DOT | DOTCOM POSTAGE | 2.10 | 19013.34 |
-   | 22423 | REGENCY CAKESTAND 3 TIER | 10.95 | 16446.10 |
-   | 21108 | FAIRY CAKE FLANNEL ASSORTED COLOUR | 6.75 | 13374.44 |
-   | 48185 | DOORMAT FAIRY CAKE | 3.21 | 10087.28 |
-   | 79321 | CHILLI LIGHTS | 1.85 | 10017.54 |
-   | 22470 | HEART OF WICKER LARGE | 2.55 | 9752.64 |
-   | 21175 | GIN + TONIC DIET METAL SIGN | 3.24 | 8775.28 |
-   | 22469 | HEART OF WICKER SMALL | 3.24 | 8228.14 |
-   | 21733 | RED HANGING HEART T-LIGHT HOLDER | 2.55 | 7706.10 |
+   | StockCode | Description | Revenue |
+   |---|---|---|
+   | 85123A | WHITE HANGING HEART T-LIGHT HOLDER | 13313.72 |
+   | DOT | DOTCOM POSTAGE | 9506.67 |
+   | 22423 | REGENCY CAKESTAND 3 TIER | 8223.05 |
+   | 21108 | FAIRY CAKE FLANNEL ASSORTED COLOUR | 6687.22 |
+   | 48185 | DOORMAT FAIRY CAKE | 5043.64 |
+   | 79321 | CHILLI LIGHTS | 5008.77 |
+   | 22470 | HEART OF WICKER LARGE | 4876.32 |
+   | 21175 | GIN + TONIC DIET METAL SIGN | 4387.64 |
+   | 22469 | HEART OF WICKER SMALL | 4114.07 |
+   | 21733 | RED HANGING HEART T-LIGHT HOLDER | 3853.05 |
    
 
    **Scheduled execution** (The **dashboard is updated everyday at 3 am**)
