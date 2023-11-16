@@ -1,6 +1,6 @@
 ## Sales Status Dashboard for Actionable Insights
 
-This repository demonstrates how to use **Azure Notebook to automaticaly generate year to date (YTD) sales report everyday**. Using a Databricks notebook, online retail data saved on the cloud was extracted, turned into table, filterd and aggregated to generate **a bar chart of top revenue generating products** that can be used for regular sales status monitoring. The pipeline is set to be triggered every day at _8am_.
+This repository demonstrates how to use **Azure Notebook to automaticaly generate year to date (YTD) sales report everyday**. Using a Databricks notebook, online retail data saved on the cloud was extracted, turned into table, filterd and aggregated to generate **a bar chart of top revenue generating products** that can be used for regular sales status monitoring. The pipeline is set to be triggered every day at _3am_.
 
 Below is an overview of the repository:
    
@@ -16,8 +16,7 @@ Below is an overview of the repository:
       As **top revenue generating products are all of** ***low unit price*** and ***large sales quantity***, **new initiaitve of sales campaign on such poducts should be launched**.
       
    **Resulted Dashboard**
-
-   <img width="586" alt="Dashboard" src="https://github.com/nogibjj/SalesReport_YCLiu/assets/46064664/f5ff9e42-189f-403e-9f12-1886faf535d7">
+   <img width="592" alt="Dashboard" src="https://github.com/nogibjj/SalesReport_YCLiu/assets/46064664/d957c4be-c905-4f32-a9c8-f01784294f0c">
 
    | StockCode | Description | UnitPrice | Revenue |
    |---|---|---|---|
