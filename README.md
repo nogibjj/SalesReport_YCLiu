@@ -8,11 +8,11 @@ Below is an overview of the repository:
    
 1. **Main script generating sales dashboard**
    <br>a. _SalesReport.ipynb_: The ipython notebook for generating sales dashboard, specifically, the following are executed:
-   1. **Load** online sales data in the cloud.
-   2. **Create PySpark SQL table** _sales_data_ and fill in _all_ rows from sales data source, namely _InvoiceNo_, _StockCode_, _Description_, _Quantity_, _InvoiceDate_, _UnitPrice_, _CustomerID_. Also, add a column name _Revenue_, which is the product of _Quantity_ and _UnitPrice_.
-   3. **Filter data of the the year** to **reduce the amount of data** and turn the result into a pandas dataframe.
-   4. **Aggregate revenue per product** and **sort products from the highest YTD revenue to the lowest**.
-   5. **Generate a dashboard of top YTD revenue generating products**.
+   i. **Load** online sales data in the cloud.
+   ii. **Create PySpark SQL table** _sales_data_ and fill in _all_ rows from sales data source, namely _InvoiceNo_, _StockCode_, _Description_, _Quantity_, _InvoiceDate_, _UnitPrice_, _CustomerID_. Also, add a column name _Revenue_, which is the product of _Quantity_ and _UnitPrice_.
+   iii. **Filter data of the the year** to **reduce the amount of data** and turn the result into a pandas dataframe.
+   iv. **Aggregate revenue per product** and **sort products from the highest YTD revenue to the lowest**.
+   v. **Generate a dashboard of top YTD revenue generating products**.
   
    ## Actionable Insights for Sales Management Team
       The **sales comapaign for couples giving each other gifts** （e.g. hanging heart light holder, heart of wicker) worked well. However, white light holder seems to be more popular, we should **work on making sure our stock can meet customer's needs**.
@@ -39,10 +39,13 @@ Below is an overview of the repository:
    
 <img width="811" alt="ScheduledUpdate" src="https://github.com/nogibjj/SalesReport_YCLiu/assets/46064664/e817a97c-b07e-4bea-950f-c49d0865ea97">
 
+2. **Github actions setup for continuous integration**
+  <br>b. _.github/workflows/cicd.yml_: Quality control actions are triggered when pushed/ pulled to main branch.  
 
 3. **Other files for development environment settings**
-   <br>b. _.gitignore_: specify file names to ignore.
+  <br>c. _.gitignore_: specify file names to ignore.
+  <br>d. _requirements.txt_: list required packages for the project.
 
 4. **Description of the project**
-   <br>c. _README.md_: THIS FILE, explaining the purpose and structure of the directory, with example output and screenshots of scheduled execution.
+   <br>e. _README.md_: THIS FILE, explaining the purpose and structure of the directory, with example output and screenshots of scheduled execution.
 
