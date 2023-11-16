@@ -1,0 +1,14 @@
+#devops
+black
+click
+pytest
+pytest-cov
+requests
+#rust based linter
+ruff
+#data science
+pandas
+numpy
+pyspark
+#visualisation
+matplotlib
