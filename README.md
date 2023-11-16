@@ -18,6 +18,7 @@ Below is an overview of the repository:
       The **sales comapaign for couples giving each other gifts** （e.g. hanging heart light holder, heart of wicker) worked well. However, white light holder seems to be more popular, we should **work on making sure our stock can meet customer's needs**.
       
    **Resulted Dashboard**
+   
    <img width="592" alt="Dashboard" src="https://github.com/nogibjj/SalesReport_YCLiu/assets/46064664/d957c4be-c905-4f32-a9c8-f01784294f0c">
 
    | StockCode | Description | Revenue |
